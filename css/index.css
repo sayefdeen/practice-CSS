@@ -1,0 +1,61 @@
+h2 {
+  color: red;
+}
+
+.subtitile {
+  color: blue;
+}
+
+#services {
+  color: green;
+}
+
+/* li:first-child {
+  color: green;
+}
+
+li:last-child {
+  color: red;
+}
+
+li:nth-child(2) {
+  color: blue;
+} */
+
+/* li:only-child {
+  color: blueviolet;
+} */
+
+/* td:only-child {
+  color: chartreuse;
+} */
+
+/* a:hover {
+  color: coral;
+} */
+
+/* #google-link:link {
+  color: blue;
+}
+
+#google-link:visited {
+  color: red;
+} */
+
+h2 + a {
+  color: red;
+}
+
+textarea ~ button {
+  color: purple;
+}
+
+/* sudu selectors are more specifity than child selector*/
+
+ul > li {
+  color: blue;
+}
+
+/* ul li {
+  color: green;
+} */
