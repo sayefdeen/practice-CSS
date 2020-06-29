@@ -7,16 +7,16 @@
 </head>
 <body>
 
-<h1 class="title"> My Website</h1>
+<h1 id="title"> My Website</h1>
 
-<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+<p class="para-text" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua.</p>
 
 <h2 class="subtitile">About Me</h2>
 
 <img src="../img/img-1.jpg" >
 
-<p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+<p class="para-text">Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -28,11 +28,11 @@ consequat.
 Cillum dolore eu fugiat nulla , pariatur:
 
 	<ul>
-		<li >Excepteur sint occaecat 1</li>
+		<li class="list-item" >Excepteur sint occaecat 1</li>
 		<!-- <li >Excepteur sint occaecat 2 </li>
         <li >Excepteur sint occaecat 3</li> -->
         <ol>
-            <li>My numberd list item</li>
+            <li class="list-item">My numberd list item</li>
         </ol>
 		
 	</ul>
@@ -40,9 +40,9 @@ Cillum dolore eu fugiat nulla , pariatur:
 	
 </p>
 
-<h2 class="subtitile article-sibtitle" id="services" >Services</h2>
+<h2 class="subtitile" >Services</h2>
 
-<a href="http://www.google.com" id="google-link" target="blank" >Click here to go to Google</a>
+<a href="http://www.google.com" class="link" target="blank" >Click here to go to Google</a>
 
 <table border="1" >
 	<thead>
@@ -67,17 +67,15 @@ Cillum dolore eu fugiat nulla , pariatur:
 	</tbody>
 </table>
 
+<div id="service-img"></div>
 
+<!-- <img id="service-img" src="../img/img-2.jpg" alt=""> -->
 
-
-
-<img src="../img/img-2.jpg" alt="">
-
-<h2 id="contact-us" >Contact Us</h2>
+<h2 class="subtitile" >Contact Us</h2>
 
 <form>
-	<input type="text" placeholder="Full Name" >
-	<input type="email" placeholder="Email" >
+	<input type="text" placeholder="Full Name" class="form-input" >
+	<input type="email" placeholder="Email" class="form-input" >
 	<textarea></textarea>
 	<button>Submit</button>	
 </form> 
