@@ -1,4 +1,12 @@
-h2 {
+/* CSS Block this block will contain our css rule
+selector{
+    property : value;
+    property2 : value2;
+    color : red;
+    background-color : black;
+} */
+
+/* h2 {
   color: red;
 }
 
@@ -8,7 +16,7 @@ h2 {
 
 #services {
   color: green;
-}
+} */
 
 /* li:first-child {
   color: green;
@@ -42,19 +50,19 @@ li:nth-child(2) {
   color: red;
 } */
 
-h2 + a {
+/* h2 + a {
   color: red;
 }
 
 textarea ~ button {
   color: purple;
-}
+} */
 
 /* sudu selectors are more specifity than child selector*/
 
-ul > li {
+/* ul > li {
   color: blue;
-}
+} */
 
 /* ul li {
   color: green;
@@ -62,10 +70,10 @@ ul > li {
 
 /* attribute selector */
 
-img[src^="../img/"] {
+/* img[src^="../img/"] {
   border: 1px black solid;
-}
+} */
 
-h2[class~="article-sibtitle"] {
+/* h2[class~="test-class"] {
   background-color: green;
-}
+} */
