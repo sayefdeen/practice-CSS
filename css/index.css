@@ -90,6 +90,10 @@ textarea ~ button {
 
 body {
   background-color: rgb(166, 156, 156);
+  text-transform: capitalize;
+  text-align: justify;
+  font-size: 1.15em;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #service-img {
@@ -98,7 +102,15 @@ body {
   /* background-image: url("../img/img-2.jpg");
   background-repeat: no-repeat; */
   background-size: cover;
-  background-color: #000000;
+
   background: linear-gradient(red, black);
   /* background: radial-gradient(circle, red 20%, blue 60%, green 20%); */
+}
+
+.link {
+  text-decoration: overline;
+}
+
+.italics {
+  font-style: italic;
 }
