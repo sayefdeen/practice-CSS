@@ -77,3 +77,28 @@ textarea ~ button {
 /* h2[class~="test-class"] {
   background-color: green;
 } */
+
+/* style classes */
+
+#title {
+  color: rgb(8, 8, 194);
+}
+
+.subtitile {
+  color: rgb(72, 72, 232);
+}
+
+body {
+  background-color: rgb(166, 156, 156);
+}
+
+#service-img {
+  height: 400px;
+  width: 70%;
+  /* background-image: url("../img/img-2.jpg");
+  background-repeat: no-repeat; */
+  background-size: cover;
+  background-color: #000000;
+  background: linear-gradient(red, black);
+  /* background: radial-gradient(circle, red 20%, blue 60%, green 20%); */
+}
