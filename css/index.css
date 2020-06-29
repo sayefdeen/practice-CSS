@@ -107,12 +107,26 @@ body {
 
   background: linear-gradient(red, black);
   /* background: radial-gradient(circle, red 20%, blue 60%, green 20%); */
+  border: solid black 5px;
 }
 
 .link {
-  text-decoration: overline;
+  text-decoration: none;
 }
 
 .italics {
   font-style: italic;
+}
+
+#about-us-image {
+  height: 300px;
+  width: 60vw;
+  border: blue solid 5px;
+  float: right;
+  margin: 15px;
+}
+
+.side-table {
+  /* display: none; */
+  display: inline-block;
 }
