@@ -169,3 +169,41 @@ body {
   margin: 10px;
   text-align: center;
 }
+
+.submit-button {
+  margin: 20px 10px;
+  padding: 10px 15px;
+  border: none;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(89, 150, 225);
+  transition: all 2s ease 1s;
+}
+
+.submit-button:hover {
+  padding: 20px 30px;
+}
+
+#aboutme {
+  animation-name: red-to-black;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+}
+
+@keyframes red-to-black {
+  0% {
+    color: red;
+    transform: translate(0px, 0px);
+  }
+  50% {
+    color: yellow;
+    transform: translate(10px, 10px);
+  }
+  100% {
+    color: black;
+    transform: translate(20px, 20px);
+  }
+}
